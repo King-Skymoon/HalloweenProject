@@ -1,7 +1,8 @@
 #backgroundimage {
   /*Background Image stuff I know it's a lot :/*/
   display: block;
-  background-image: url('images/background.jpg') /*no-repeat center center fixed*/;
+  background-image: url('images/background.jpg')
+  /*no-repeat center center fixed*/;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -89,6 +90,7 @@ hr {
   /*Horizontal centering of the header div*/
   display: table;
   margin: 0 auto;
+  padding-top: 2rem;
 }
 
 #heading {
