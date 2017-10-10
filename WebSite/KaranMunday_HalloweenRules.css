@@ -1,4 +1,5 @@
 #backgroundimage {
+  /*Background Image stuff I know it's a lot :/*/
   display: block;
   background-image: url('images/background.jpg') /*no-repeat center center fixed*/;
   -webkit-background-size: cover;
@@ -21,28 +22,39 @@
 }
 
 #title {
+  /*Default Heading Text*/
 	text-align: center;
 	font-family: 'Germania One', cursive;
 	font-size: 3.125rem;
 	margin: 0rem;
+
 }
+
 #a {
+  /*Just to get rid of that ugly hyperlink color*/
 	text-decoration: none;
+
 }
+
 #a:visited {
+  /*Just to get rid of that ugly hyperlink color*/
 	text-decoration:none;
 	color:#000;
+
 }
 
 #main {
+  /*Main Div!*/
 	background-color: rgba(0, 0, 0, 0.5);
 	width: 80rem;
 	margin: 0 auto;
   margin-top: 2rem;
 	padding-bottom: 0.5rem;
+
 }
 
-hr{
+hr {
+  /*It was a requirment*/
 	padding: 0px;
 	margin: 0px auto;
 	margin-top: -13px;
@@ -52,12 +64,45 @@ hr{
 }
 
 .text {
+  /*Font for the body text*/
 	font-family: 'Roboto', sans-serif;
   color: #dcdee2;
 }
+
 .purple {
+  /*Purple Text*/
   color: #743df4;
 }
 .orange {
+  /*orange Text*/
   color:#d68700;
+}
+
+.boarder {
+  /*Gives the text a gray boarder*/
+  text-shadow: -1px 0 #0d121e, 0 1px #0d121e, 1px 0 #0d121e, 0 -1px #0d121e;
+}
+
+#header {
+  /*I don't know why I named it header it just makes it confusing*/
+  position: relative;
+  /*Horizontal centering of the header div*/
+  display: table;
+  margin: 0 auto;
+}
+
+#heading {
+  /*Again I don't know why I named it heading*/
+  /*I also don't know what this does, I'm just assuming it does stuff*/
+  display: inline-block;
+  margin: 0rem;
+  transform: translateY(-50px);
+  /*Oh, just found out what it does, It makes the whatchamacallit candy and the text be on the same line*/
+}
+
+#whatchamacallit {
+  /*position: absolute;*/
+  display: inline-block;
+  width: 14em;
+  height: 8em;
 }
