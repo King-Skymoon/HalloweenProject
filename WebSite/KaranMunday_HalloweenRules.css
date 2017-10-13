@@ -74,6 +74,7 @@ hr {
   /*Purple Text*/
   color: #743df4;
 }
+
 .orange {
   /*orange Text*/
   color:#d68700;
@@ -100,6 +101,9 @@ hr {
   margin: 0rem;
   transform: translateY(-50px);
   /*Oh, just found out what it does, It makes the whatchamacallit candy and the text be on the same line*/
+}
+#nheading {
+  transform: translateY(60px);
 }
 
 #whatchamacallit {
