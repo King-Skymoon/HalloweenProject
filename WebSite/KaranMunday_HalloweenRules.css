@@ -68,6 +68,8 @@ hr {
   /*Font for the body text*/
 	font-family: 'Roboto', sans-serif;
   color: #dcdee2;
+  display: inline-block;
+  margin: 0rem;
 }
 
 .purple {
@@ -92,6 +94,8 @@ hr {
   display: table;
   margin: 0 auto;
   padding-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
 }
 
 #heading {
@@ -102,13 +106,39 @@ hr {
   transform: translateY(-50px);
   /*Oh, just found out what it does, It makes the whatchamacallit candy and the text be on the same line*/
 }
-#nheading {
-  transform: translateY(60px);
+
+#li {
+  list-style-type: none;
+  margin-bottom: 4rem;
+}
+
+#number {
+  font-family: 'Roboto', sans-serif;
+  color: #dcdee2;
+  font-size: 2rem;
+  display: inline-block;
+  margin: 0rem;
 }
 
 #whatchamacallit {
   /*position: absolute;*/
   display: inline-block;
-  width: 14em;
-  height: 8em;
+  width: 15%;/*14em;*/
+  height: 10%;/*8em;*/
+}
+
+.down {
+  transform: translateY(5rem);
+}
+
+.downH {
+  transform: translateY(2rem);
+}
+
+.downM {
+  transform: translateY(1.5rem);
+}
+
+.up {
+  transform: translateY(-1.5rem);
 }
